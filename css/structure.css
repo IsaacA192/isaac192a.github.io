@@ -168,7 +168,7 @@ body
 /*finalise page*/
 input
 {
-  font-size:17px;
+  font-size:15px;
   outline:none;
   border:1px solid var(--grey-accent);
   padding:5px;
