@@ -6,11 +6,13 @@ $(document).ready(function()
      $('.menu-items').fadeIn(200);
      $('.menu-trigger').removeClass('ia-menu-stack-b');
      $('.menu-trigger').addClass('ia-cross-b');
+     $('html').css({'overflow':'hidden'});
   },function()
   {
      $('.menu-items').fadeOut(200);
      $('.menu-trigger').removeClass('ia-cross-b');
      $('.menu-trigger').addClass('ia-menu-stack-b');      
+     $('html').css({'overflow':'auto'});
   });
   
 
