@@ -99,11 +99,11 @@ body
 }
 .event-1
 {
-  background-image:url(../../imgs/318316_ROABookingPNG_201017091719.png);
+  background-image:url(../imgs/318316_ROABookingPNG_201017091719.png);
 }
 .event-2
 {
-  background-image:url(../../imgs/Shrek.jpg);   
+  background-image:url(../imgs/Shrek.jpg);   
 }
 .controls
 {
@@ -142,7 +142,7 @@ body
 }
 .roa-bg
 {
-  background-image:url(../../imgs/ROA%20Poster-1-new.jpg);
+  background-image:url(../imgs/ROA%20Poster-1-new.jpg);
 }
 .info-strip > span
 {
