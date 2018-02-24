@@ -117,6 +117,7 @@ body
   font-size:30px;
   font-weight:bold;
   position:relative;
+  user-select:none;
 }
 .title-event::before
 {
