@@ -1,0 +1,53 @@
+.button1
+{
+  color:var(--control-text);
+  font-size:11px;
+  padding:10px;
+  background:var(--button1-grade);
+  border-radius:3px;
+  border:1px solid var(--nav);
+  box-shadow:0px 3px 7px rgba(0,0,0, .1);
+  text-decoration:none;
+}
+.button2
+{
+  border-radius:3px;
+  border:1px solid var(--control-text);
+  padding:6px;
+  font-weight:normal;
+  color:var(--control-text);
+  font-size:13px;
+  text-decoration:none;
+  transition:.2s;
+}
+.button2:hover,
+.button2:focus
+{
+  background-color:var(--control-text);
+  color:var(--control-bg);
+}
+.mod
+{
+  padding:6px 25px 6px 25px;
+}
+.button3
+{
+  padding:5px;
+  border:1px solid var(--text);
+  color:var(--text);
+  border-radius:3px;
+}
+.seat-nums > a
+{
+  font-size:19px;
+  margin:5px;
+  padding:5px;
+  line-height:50px;
+  border:1px solid var(--text);
+  border-radius:50%;
+}
+.menu-items > li > a
+{
+  color:var(--text);
+  text-decoration:none;
+}

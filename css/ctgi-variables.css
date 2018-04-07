@@ -1,0 +1,24 @@
+*
+{
+  margin:0;
+  padding:0;
+    
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  
+  --nav:#121f30;
+  --text:#819ed2;
+  --ctg-text:#2e446e;
+  --banner-deco:#2c3e61;
+  --body:#19243a;
+  --menu-button:#6370b5;
+  --control-bg:#414f9c;
+  --control-text:#fff;
+  --accent:#111a2b;
+  --red:#ef4136;
+    
+  --banner-grade:radial-gradient(at top, #253659, #253659 40%, #121c32 140%);
+  --button1-grade:linear-gradient(#495aa8 10%, #2e3084 120%);
+  --chin-bar:rgba(65, 79, 156, .8);
+    
+  --success:rgba(18,31,48,.9);
+}

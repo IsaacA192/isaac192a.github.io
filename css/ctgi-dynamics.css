@@ -1,0 +1,119 @@
+@media only screen and (max-device-width:768px){
+  .banner > span:nth-child(1)
+  {
+    transform:translate(95px,50px);
+    width:20px;
+    height:20px;
+  }
+  .banner > span:nth-child(3)
+  {
+    transform:translate(70px,100px);
+  }
+  .banner > span:nth-child(2)
+  {
+    transform:translate(155px,140px);
+    width:7px;
+    height:7px;
+  }
+  .banner > span:nth-child(4)
+  {
+    transform:translate(635px,90px);
+    width:5px;
+    height:5px;
+  }
+  .banner > span:nth-child(6)
+  {
+    transform:translate(660px,110px);
+    font-size:20px
+  }
+  .banner > span:nth-child(5)
+  {
+    transform:translate(590px,130px);
+    width:10px;
+    height:10px;
+  }  
+  .detail1,.detail2
+  {
+    display:block;   
+  }
+}
+@media only screen and (max-device-width:425px){
+  .banner > span:nth-child(1)
+  {
+    transform:translate(45px,50px);
+    width:20px;
+    height:20px;
+  }
+  .banner > span:nth-child(3)
+  {
+    transform:translate(20px,100px);
+  }
+  .banner > span:nth-child(2)
+  {
+    transform:translate(85px,140px);
+    width:7px;
+    height:7px;
+  }
+  .banner > span:nth-child(4)
+  {
+    transform:translate(365px,90px);
+    width:5px;
+    height:5px;
+  }
+  .banner > span:nth-child(6)
+  {
+    transform:translate(380px,110px);
+    font-size:20px
+  }
+  .banner > span:nth-child(5)
+  {
+    transform:translate(330px,130px);
+    width:10px;
+    height:10px;
+  }    
+}
+@media only screen and (max-device-width:375px){
+  .banner > span:nth-child(1)
+  {
+    transform:translate(15px,50px);
+    width:20px;
+    height:20px;
+  }
+  .banner > span:nth-child(3)
+  {
+    transform:translate(20px,100px);
+  }
+  .banner > span:nth-child(2)
+  {
+    transform:translate(65px,140px);
+    width:7px;
+    height:7px;
+  }
+  .banner > span:nth-child(4)
+  {
+    transform:translate(325px,90px);
+    width:5px;
+    height:5px;
+  }
+  .banner > span:nth-child(6)
+  {
+    transform:translate(340px,110px);
+    font-size:20px
+  }
+  .banner > span:nth-child(5)
+  {
+    transform:translate(290px,130px);
+    width:10px;
+    height:10px;
+  }    
+}
+@media only screen and (max-device-width:320px){
+  .detail1,.detail2
+  {
+    display:none;   
+  }
+  .button-container
+  {
+    margin-top:-10px;
+  }
+}

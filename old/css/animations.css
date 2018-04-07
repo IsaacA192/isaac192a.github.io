@@ -1,0 +1,74 @@
+/*[class^="event-"]::before
+{
+  content:'';
+  width:100%;
+  height:100%;
+  left:0;
+  position:absolute;
+  animation:blink 2 .4s;
+}
+@keyframes blink{
+  0%
+  {
+    background-color:rgba(81, 208, 255, 0);
+  }
+  50%
+  {
+    background-color:rgba(81, 208, 255, .4);
+  }
+  100%
+  {
+    background-color:rgba(81, 208, 255, 0);
+  }
+}*/
+body
+{
+  animation:fade-in 1 .6s;
+}
+@keyframes fade-in{
+  0%
+  {
+    opacity:.4;  
+  }  
+  100%
+  {
+    opacity:1;  
+  }
+}
+.menu-trigger
+{
+  animation:stack-slide 1 .4s;
+}
+@keyframes stack-slide{
+  0%
+  {
+    transform:translateY(-50px);  
+  }
+  100%
+  {
+    transform:translateY(0px); 
+  }
+}
+[class^="event-"]
+{
+  animation:shiver 2 .2s;
+  animation-delay:.5s;
+}
+@keyframes shiver{
+  0%
+  {
+    transform:translateX(-2px);  
+  }  
+  30%
+  {
+    transform:translateX(2px);  
+  }
+  60%
+  {
+    transform:translateX(-2px);  
+  }
+  100%
+  {
+    transform:translateX(2px);  
+  }
+}
