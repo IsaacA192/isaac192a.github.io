@@ -118,7 +118,7 @@ $(document).ready(function()
         'border':'1px solid var(--text)'
       });        
     });
-////////////////////////////////////////////////
+///////////////////////////////////Hahaha/////////////
     
     $('.tick-box').toggle(function()
     {
